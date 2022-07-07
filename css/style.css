@@ -1,7 +1,12 @@
+@font-face {
+    font-family: Gerbil;
+    src: url('../fonts/gerbil.otf');
+}
 body{
     padding: 0;
     margin: 0;
     background: linear-gradient(180deg, #E7D3FF 0%, #9DBFF1 97.4%);
+    font-family: 'Raleway', sans-serif;
 }
 a img{
     width: 4rem;
@@ -10,7 +15,7 @@ a img{
     background: #AD8FCF;
     color: #fff;
 }#sus1Arriba::placeholder{
-    color: #fff;
+    color: #D5D6D8;
 }
 #sus2Arriba{
     background: #343433;
@@ -18,8 +23,312 @@ a img{
 }
 #first{
     height: 90vh;
+    width:  100%;
+}
+#fondo{
+    z-index: -1;
+    width: 100%;
+}
+#bgvector-1{
+    width: 40%;
+    height: auto;
+    position: absolute; top: 15%; left: 0px;
+}
+#bgvector-2{
+    width: 45%;
+    height: auto;
+    position: absolute; top: 5%; right: 0px;
+}
+#D-1{
+    width: 20%;
+    height: auto;
+    position: absolute; top: 20%; left: -8%;
+}
+#D-2{
+    width: 15%;
+    height: auto;
+    position: absolute; top: 10%; right: 1%;
+}
+#D-3{
+    width: 30%;
+    height: auto;
+    position: absolute; top: 60%; left: -4%;
+}
+#D-4{
+    width: 20%;
+    height: auto;
+    position: absolute; top: 50vh; right: 0%;
+}
+#izq{
+    float: left;
+    margin-top: 25vh;
+    margin-left: 15%;
+    margin-right: 0%;
+    width: 40%;
+    
+}
+#izq h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4vw;
+    line-height: 113.5%;
+    /* or 68px */
+    letter-spacing: 0.035vw;
+    color: #505050;
+}
+#span1{
+    font-size: 3.7vw;
+    font-weight: 800;
+    color: #6212C8;
+    line-height: 113.5%;
+    /* or 68px */
+    letter-spacing: 0.035vw;
+    margin-left: 30%;
+}
+
+#der img{
+    width: 40%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
 }
 #galeria{
-    background: #000;
     height: 100vh;
+    padding-left: 10%;
+    padding-top: 7%;text-align: center;
+    width: 100%;
+}
+#circles{
+    position: absolute;
+    z-index: -1;
+    height: 130vh;
+    right: 0;
+    top: 98vh;
+    width:100%;
+}
+#conoce{
+    display: none;
+}
+#cuadro1{
+width: 20vw;
+height: 35vh;
+background: linear-gradient(270deg, #3C6A94 71.16%, rgba(55, 0, 91, 0) 100%);
+border-radius: 16.824px;
+float: left;
+text-align: center;
+}
+#cuadro2{
+    width: 20vw;
+    height: 35vh;
+    background: linear-gradient(270deg, #3C6A94 71.16%, rgba(55, 0, 91, 0) 100%);
+    border-radius: 16.824px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 15vh;text-align: center;
+    }
+    #cuadro3{
+        width: 20vw;
+        height: 35vh;
+        background: linear-gradient(270deg, #3C6A94 71.16%, rgba(55, 0, 91, 0) 100%);
+        border-radius: 16.824px;
+        float: left;
+        margin-left: 10%;text-align: center;
+        }
+.recurbox{
+    width: 70%;
+    height: auto;
+    margin-top: 4%;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+}
+.recurA{
+    margin-top: 7px;
+    height: 5vh;
+    width: auto;
+    
+}
+#galeria h1{
+    font-family: Gerbil;
+    margin-left: -13%;
+    margin-top: 55vh;
+    font-size: 3.5vw;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: center;
+    color: #505050;
+}
+#calltoaction{
+    height: 40vh;
+    text-align: center;
+    width: 100%;
+}
+#cta{
+    box-sizing: border-box;
+    width: 75%;
+    height: 35vh;
+    margin-top: 20vh;
+    margin-left: auto;
+     margin-right:auto;
+    background: linear-gradient(93.06deg, #974FCF 0%, #59178F 97.86%);
+    border: 3px solid #AF6DE4;
+    border-radius: 33px;
+
+}
+#cizq h1{
+    font-family: Gerbil;
+    color: #F5F5F5;
+    font-size: 2.5vw;
+}
+#cizq h2{
+    font-family: Gerbil;
+    font-size: 1em;
+}
+#cder img{
+    width: 60%;
+    
+}
+#redes{
+    height: 110vh;
+    padding-top:10vh ;
+    width: 100%;
+}
+#rizq{
+    text-align: center;
+    padding-left: 5%;
+}
+#rizq h1{
+    font-size: 2em;
+    color: #F5F5F5;
+    margin-top: 5vh;
+}
+#rizq img{
+    width: 65%;
+}
+#rder img{
+    width: 40%;
+    height: auto;
+    margin-top: 10vh;
+    margin-left: 15%;
+     margin-right:auto;
+}
+
+#rbutton a{
+    text-decoration: none;
+    
+    vertical-align: middle;
+}
+#rbutton a div{
+    font-size: 1.5em;
+    line-height: 2.5vh;
+    margin-top: 5vh;
+    width: 50%;
+    height: 10vh;
+    background: linear-gradient(90deg, #57199E 0%, #C64BFB 100%);
+    border-radius: 27px;
+    margin-left: auto;
+    margin-right:auto;
+    color: #F5F5F5;
+    padding-top: 3vh;
+}
+#oferta{
+    height: 100vh;  
+    background-image: url('../img/secofer.jpg');  
+    padding-top: 15vh ;
+    padding-left: 5vh;
+    width: 100%;
+}
+#oarriba{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.244);
+    padding: 2px;
+    border-radius: 20px;
+}
+#oarriba h1{
+    color: #F5F5F5;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#omedio{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.244);
+    padding: 2px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    padding:   10px;
+}
+
+#omedio a div{
+    font-size: 1.5em;
+    line-height: 2.5vh;
+    width: 90%;
+    height: 10vh;
+    background: linear-gradient(0.89deg, #EBB9A2 -180.61%, #E7B5A4 -159.67%, #E2B0A6 -142.54%, #E2B0A6 -142.51%, #E6B4A4 -112.08%, #E6B4A4 -28.44%, #E7B5A4 -28.4%, #E7B5A4 -28.36%, #E7B5A4 -28.33%, #E7B5A4 -20.71%, #9463C4 184.88%);
+    border-radius: 27px;
+    margin-left: auto;
+    margin-right:auto;
+    color: #F5F5F5;
+    padding-top: 3vh;
+    text-align: center;
+}
+#omedio a {
+    text-decoration: none;
+    vertical-align: middle;
+    color: #080505;
+    font-size: 2vw;
+    font-weight: 500;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#oabajo{
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.244);
+    padding: 2px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-left: 50%;
+    margin-top: 10vh;
+    text-align: end;
+}
+#oabajo h1{
+    color: #F5F5F5;
+    font-weight: 800;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+footer{
+    height: 50vh;
+    padding-top: 10vh;
+    padding-left: 5%;
+    width: 100%;
+}
+#cta2{
+    width: 95%;
+    height: 25vh;
+    background: #2C2F48;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding-left: 4vh;
+    padding-top: 2vh;
+}
+#cta2 h1{
+    font-family: Gerbil;
+    color: #F5F5F5;
+    float: left;
+}
+#input{
+    margin-top: 6vh;
+    width: 45%;
+    margin-left: 3%;
+} #susFooter{
+    background: #9ED1FF;
+    color: #505050;
+}
+#sus1Footer{
+    background: #D9D9D9;
+}#sus1Footer::placeholder{color: #B053FB;}
+#fder a img{
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    text-align: center;
 }
